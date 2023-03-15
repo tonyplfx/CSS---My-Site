@@ -32,10 +32,30 @@ body{
 }
 
 .cloud{
+    
+}
+
+.astronauta{
     height: 190px;
     height: 190px;
     position: absolute;
     right: 0;
+}
+
+.estacion{
+    height: 100px;
+    height: 100px;
+    position: absolute;
+    right: 600px;
+    top: 250px;
+}
+
+.avion{
+    height: 150px;
+    height: 150px;
+    position: absolute;
+    left: 525px;
+    
 }
 
 h1{
