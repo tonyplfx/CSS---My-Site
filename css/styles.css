@@ -18,12 +18,13 @@ body{
 
 .bottom-container {
     background-color: #A9AF7E; 
-    padding-top: 16px;
     position: relative;
+    padding: 0 20%;
 }
 
 .bottom-container h2{
     margin-top: 0;
+    padding-top: 20px;
 }
 
 .bottom-container p{
@@ -45,6 +46,9 @@ h1{
 
 hr{
     margin: 0px;
+    padding: 0;
+    position: relative;
+    top: 0.5px;
 }
 
 .top-container {
@@ -52,7 +56,8 @@ hr{
     margin: 0;
     position: relative;
     width: auto;
-    height: 600px;
+    height: 500px;
+    padding: 0 20%;
     
 }
 
@@ -78,11 +83,21 @@ hr{
 
 .middle-container {
     background-color: #7D8F69;
+    padding: 0 10%;
 }
 
-.skills{
-
+.middle-container h2{
+    padding-top: 20px;
 }
+
+.experience{
+    padding-bottom: 20px;
+}
+
+.experience h2{
+    margin-top: 0;
+}
+
 
 .skill-row{
 
