@@ -6,6 +6,7 @@ body{
     margin: 0;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
+    line-height: 2;
 }
 
 .bottom-cloud{
@@ -36,32 +37,33 @@ body{
 }
 
 .astronauta{
-    height: 190px;
-    height: 190px;
+    height: 30%;
     position: absolute;
-    right: 0;
+    right: 0%;
+
 }
 
 .estacion{
     height: 100px;
-    height: 100px;
     position: absolute;
-    right: 600px;
-    top: 250px;
+    right: 70%;
+    top: 50%;
 }
 
 .avion{
-    height: 150px;
-    height: 150px;
+    height: 25%;
     position: absolute;
-    left: 525px;
-    
+    bottom: 35%;
+    left: 60%;
 }
 
 h1{
+    font-size: 552.5%;
     margin-top: 0;
-    position: relative;
-    top: 180px;
+}
+
+h2{
+    font-size: 2.5rem;
 }
 
 hr{
@@ -76,16 +78,19 @@ hr{
     margin: 0;
     position: relative;
     width: auto;
-    height: 500px;
     padding: 0 20%;
     
 }
 
+.top-container h1{
+    padding-top: 150px;
+}
+
 .top-container p{
     margin: 0;
-    position: relative;
-    top: 190px;
+    padding-bottom: 20px;
 }
+
 
 .cuadro-montaña{
     height: 255px;
@@ -119,8 +124,8 @@ hr{
 }
 
 
-.skill-row{
-
+.skills{
+    position: relative;
 }
 
 .contact-me{
